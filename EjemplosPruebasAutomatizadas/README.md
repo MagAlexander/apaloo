@@ -5,7 +5,7 @@ Este repositorio contiene ejemplos educativos de **pruebas automatizadas** utili
 Actualmente incluye:
 
 - 📂 `Calculadora/`: Proyecto base que muestra cómo probar operaciones matemáticas básicas con JUnit 5.
-- 📂 `ListaLinealArreglos/`: Proyecto base que muestra cómo probar los métodos de nuesta primer lista lineal basada en arreglos con JUnit 5.
+- 📂 `ListaLinealArreglo/`: Proyecto base que muestra cómo probar los métodos de nuesta primer lista lineal basada en arreglos con JUnit 5.
 
 ---
 
