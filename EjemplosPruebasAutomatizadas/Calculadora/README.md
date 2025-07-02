@@ -1,29 +1,15 @@
-# Proyecto de pruebas unitarias en una calculadora en Java con JUnit 5
+# Proyecto de Pruebas Unitarias en Java con JUnit 5
 
-Este proyecto contiene una clase `Calculadora` y su conjunto de pruebas automáticas usando **JUnit 5**.
+Este proyecto contiene una clase `Calculadora` y su conjunto de pruebas automáticas utilizando **JUnit 5**.
 
-## Pasos para probar el código en VS Code
+## Archivos incluidos
 
-### 1. Requisitos
+- `Calculadora.java`: Implementa operaciones matemáticas básicas como suma, resta, multiplicación y división.
+- `CalculadoraTest.java`: Contiene pruebas unitarias que verifican el funcionamiento correcto de cada operación, incluyendo una prueba que valida que se lance una excepción al intentar dividir entre cero.
 
-- Tener instalado **Java JDK** (versión 11 o superior)
-- Tener instalado **Visual Studio Code**
-- Instalar el plugin **Java Extension Pack** desde la tienda de extensiones
+## Descripción de las pruebas
 
-### 2. Abrir el proyecto
+- `testSuma()`, `testResta()`, `testMultiplica()`, `testDivide()` prueban que los métodos de la clase `Calculadora` funcionan correctamente con valores esperados.
+- `testDivisionPorCero()` asegura que el método `divide()` lanza una excepción `ArithmeticException` cuando el segundo parámetro es cero.
 
-1. Abre Visual Studio Code
-2. Selecciona "File" > "Open Folder..." y abre la carpeta descargada
-3. Asegúrate de que `Calculadora.java` está en `src/` y `CalculadoraTest.java` en `test/`
-
-### 3. Ejecutar las pruebas
-
-- Haz clic derecho sobre `CalculadoraTest.java` y selecciona **"Run Tests"** o usa el botón de ejecutar del editor.
-- VS Code mostrará los resultados en una ventana inferior indicando si pasaron o fallaron.
-
-### 4. ¿Qué hace cada prueba?
-
-- `testSuma()`, `testResta()`, `testMultiplica()`, `testDivide()` verifican que las operaciones matemáticas básicas funcionen bien.
-- `testDivisionPorCero()` verifica que lanzar una división entre cero produce la excepción esperada.
-
-Si algo falla, revisa bien el código y los valores esperados.
+Este proyecto puede usarse como introducción a la escritura de pruebas automatizadas en Java.
