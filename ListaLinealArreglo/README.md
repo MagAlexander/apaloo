@@ -12,7 +12,7 @@ Este repositorio contiene una implementación de una lista tipo arreglo en Java,
 
 - Java JDK 11 o superior
 - [JUnit 5](https://junit.org/junit5/) para ejecutar las pruebas
-- Un entorno como Visual Studio Code, IntelliJ IDEA o similar
+- Un entorno como Visual Studio Code, IntelliJ IDEA, Eclipse, NetBeans o similar
 
 ## Cómo ejecutar
 
