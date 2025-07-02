@@ -1,4 +1,4 @@
-# Proyecto de Pruebas Unitarias en Java con JUnit 5
+# Proyecto de pruebas unitarias en una calculadora en Java con JUnit 5
 
 Este proyecto contiene una clase `Calculadora` y su conjunto de pruebas automáticas usando **JUnit 5**.
 
