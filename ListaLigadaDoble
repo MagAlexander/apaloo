@@ -1,0 +1,37 @@
+# Lista Ligada Doble en Java
+
+Este repositorio contiene una implementación básica de una **lista ligada doble** en Java, ideal para propósitos educativos. Se incluyen los archivos necesarios para definir los nodos, manipular la lista y ejecutar pruebas sencillas.
+
+## Estructura del proyecto
+
+- `Nodo.java`: Clase que define el nodo de la lista, con referencias al nodo anterior y al siguiente.
+- `ListaLigadaDoble.java`: Clase principal que implementa la estructura de la lista doblemente ligada/enlazada.
+- `Main.java`: Programa de prueba para demostrar el funcionamiento de los métodos principales.
+
+## Funcionalidades implementadas
+
+La clase `ListaLigadaDoble` incluye los siguientes métodos:
+
+### Métodos para agregar elementos
+
+- `agregarAlInicio(int valor)`: Inserta un nodo al inicio de la lista.
+- `agregarAlFinal(int valor)`: Inserta un nodo al final de la lista.
+- `agregarEn(int valor, int posicion)`: Inserta un nodo en una posición específica.
+
+### Métodos para eliminar elementos
+
+- `eliminarAlInicio()`: Elimina el primer nodo de la lista.
+- `eliminarAlFinal()`: Elimina el último nodo de la lista.
+- `eliminarEn(int posicion)`: Elimina un nodo en una posición específica.
+
+#Métodos adicionales
+- `esVacia()`: Regresa true si la lista no tiene elementos.
+- `toString()`: Regresa la representación en cadena de la lista.
+
+## Cómo compilar y ejecutar
+
+Puedes compilar y ejecutar este proyecto desde la línea de comandos:
+
+```bash
+javac Nodo.java ListaLigadaDoble.java Main.java
+java Main
