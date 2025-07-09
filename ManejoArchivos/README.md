@@ -27,6 +27,4 @@ Este repositorio contiene ejemplos básicos de cómo trabajar con archivos de te
 
 1. Asegúrate de tener Java instalado.
 2. Coloca todos los archivos en el mismo directorio.
-3. Compila los archivos:
-   ```bash
-   javac Main.java Ejemplo1.java
+3. Compila los archivos.
