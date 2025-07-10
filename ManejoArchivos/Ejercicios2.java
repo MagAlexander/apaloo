@@ -14,6 +14,14 @@ public class Ejercicios2 {
         String nombreCarpeta = "mis_archivos";
         String nombreArchivo = "datos.txt";
 
+            // mkdirs() (crear carpeta "mis_archivos")
+            File carpeta = new File(nombreCarpeta);
+            if (carpeta.mkdirs()) {
+                System.out.println("Carpeta creada: " + carpeta.getAbsolutePath());
+            } else {
+                System.out.println("La carpeta ya existe o no se pudo crear.");
+            }
+            
             // Creamos el objeto File
             File archivo = new File(nombreCarpeta, nombreArchivo);  // De esta manera indicamos carpeta + archivo: "mis_archivos/datos.txt"
 
